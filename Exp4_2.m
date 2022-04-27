@@ -16,7 +16,7 @@ function cont(b)
     x=A*sin(2*pi*f*t);
     subplot(6, 2, b);
     plot(t, x, 'm', 'LineWidth', 2);
-    title({'2012122';'Input Continuous Signal'});
+    title('Input Continuous Signal');
     xlabel('Time'); ylabel('x');
 end
 
