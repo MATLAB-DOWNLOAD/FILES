@@ -4,10 +4,10 @@ f=1;
 a1=1;
 x1=exp(f*a1*t); x2=2*cos(2*pi*f*a1*t);
 subplot(4, 2, 1); plot(t, x1, 'm', 'LineWidth', 3);
-title('2012122 - Original Signal - x1');
+title('Original Signal - x1');
 
 subplot(4, 2, 2); plot(t, x2, 'm', 'LineWidth', 1.5);
-title('2012122 - Original Signal - x2');
+title('Original Signal - x2');
 
 a2=2;
 y1=exp(f*a2*t); y2=2*cos(2*pi*f*a2*t);
