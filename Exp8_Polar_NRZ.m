@@ -13,7 +13,7 @@ for i=1:n
 end
 subplot(3,1,1);
 plot(x, y, 'm', 'LineWidth', 3),axis([0, n, -2, 2]);
-title('2012122 - Polar NRZ L');
+title('Polar NRZ L');
 
 x = [];
 y = [];
@@ -27,7 +27,7 @@ for i=1:n
 end
 subplot(3,1,2);
 plot(x, y, 'r', 'LineWidth', 3),axis([0, n, -2, 2]);
-title('2012122 - Polar NRZ I');
+title('Polar NRZ I');
 
 x = [];
 y = [];
@@ -41,6 +41,6 @@ for i=1:n
 end
 subplot(3,1,3);
 plot(x, y, 'b', 'LineWidth', 3),axis([0, n, -2, 2]);
-title('2012122 - Polar RZ');
+title('Polar RZ');
 
 print ('Exp8_Polar_NRZ','-dpdf','-fillpage');
