@@ -5,7 +5,7 @@ f = 2 ;
 x1=A*sin (2*pi*f*t); %original
 subplot (2,2,1);
 plot(t, x1, 'b', 'LineWidth', 1.5);
-title('2012122 X(t)=A*sin(2*pi*f*t)');
+title('X(t)=A*sin(2*pi*f*t)');
 xlabel('time'); ylabel('amplitude');
 
 m=t+2;
