@@ -13,6 +13,6 @@ for i=1:n
 end
 
 plot(x, y, 'm', 'LineWidth', 3),axis([0, n, -2, 2]);
-title('2012122 - Unipolar NRZ');
+title('Unipolar NRZ');
 
 print ('Exp8_Unipolar_NRZ','-dpdf','-fillpage');
