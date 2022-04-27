@@ -13,7 +13,7 @@ for i=1:n
 end
 subplot(2,1,1);
 plot(x, y, 'g', 'LineWidth', 3),axis([0, n, -2, 2]);
-title('2012122 - Manchester');
+title('Manchester');
 
 x = [];
 y = [];
@@ -27,6 +27,6 @@ for i=1:n
 end
 subplot(2,1,2);
 plot(x, y, 'r', 'LineWidth', 3),axis([0, n, -2, 2]);
-title('2012122 - Differential Manchester');
+title('Differential Manchester');
 
 print ('Exp8_Manchester_x2','-dpdf','-fillpage');
