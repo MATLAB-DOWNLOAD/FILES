@@ -7,11 +7,11 @@ x1 = 5.3 * cos(t+phi);
 x2 = 4 * cos(t);
 
 subplot (2,2,1);
-plot(n,x1); title('2012122 - x1');
+plot(n,x1); title('x1');
 xlabel('time'); ylabel('amplitude');
 
 subplot (2,2,2);
-plot(n,x2); title('2012122 - x2');
+plot(n,x2); title('x2');
 xlabel('time'); ylabel('amplitude');
 
 x3 = x1.*x2;
