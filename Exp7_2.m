@@ -9,14 +9,14 @@ v = x .* u;
 
 subplot(3, 1, 1);
 plot(t, x, 'LineWidth', 2);
-title('Carrier Signal - 2012122');
+title('Carrier Signal');
 
 subplot(3, 1, 2);
 plot(t, u, 'm', 'LineWidth', 3);
-title('Square Pulse - 2012122');
+title('Square Pulse');
 
 subplot(3, 1, 3);
 plot(t, v, 'r', 'LineWidth', 2);
-title({'Phase Shift Keying';'PSK Signal - 2012122'});
+title({'Phase Shift Keying';'PSK Signal'});
 
 print ('Exp7_2','-dpdf','-fillpage');
