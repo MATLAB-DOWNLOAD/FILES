@@ -1,0 +1,11 @@
+A=1;
+f=1000;
+fs=8000;
+phi=pi/2;
+n=0:64;
+X=A*sin(2*pi*(f/fs)*n + phi);
+plot(n, X);
+title('2012122');
+xlabel('Time n');
+ylabel('Amplitude A');
+print('Exp1_1','-dpdf','-fillpage');

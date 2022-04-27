@@ -1,0 +1,11 @@
+A=1;
+f=1000;
+fs=8000;
+n=0:64;
+phi=pi/4;
+X=A*sin(2*pi*(f/fs)*n+phi);
+stem(n,X);
+title ('2012122');
+xlabel ('n');
+ylabel ('x[n]=A*sin(2π(f/fs)*n+ phi)');
+print ('Exp1_3','-dpdf','-fillpage');
