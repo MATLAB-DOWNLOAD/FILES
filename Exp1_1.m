@@ -5,7 +5,7 @@ phi=pi/2;
 n=0:64;
 X=A*sin(2*pi*(f/fs)*n + phi);
 plot(n, X);
-title('2012122');
+title('sine');
 xlabel('Time n');
 ylabel('Amplitude A');
 print('Exp1_1','-dpdf','-fillpage');
