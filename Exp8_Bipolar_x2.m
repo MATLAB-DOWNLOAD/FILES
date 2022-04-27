@@ -15,7 +15,7 @@ for i=1:n
 end
 subplot(2,1,1);
 plot(x, y, 'b', 'LineWidth', 3),axis([0, n, -2, 2]);
-title('2012122 - Bipolar AMI');
+title('Bipolar AMI');
 
 x = [];
 y = [];
@@ -31,6 +31,6 @@ for i=1:n
 end
 subplot(2,1,2);
 plot(x, y, 'm', 'LineWidth', 3),axis([0, n, -2, 2]);
-title('2012122 - Bipolar Pseudoternary');
+title('Bipolar Pseudoternary');
 
 print ('Exp8_Bipolar_x2','-dpdf','-fillpage');
