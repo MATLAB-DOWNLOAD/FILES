@@ -5,7 +5,7 @@ F = 2 ;
 x1=A*cos(2*pi*f*n); %original
 subplot(2,2,1);
 stem(n, x1, 'b', 'LineWidth', 0.5);
-title('2012122 - Original');
+title('Original');
 xlabel('time'); ylabel('amplitude');
 
 m=n+2; %Time delay by 2 x2=A*cos (2*pi*f*m);
